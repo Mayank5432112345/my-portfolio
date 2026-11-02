@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StoreHUB — Case Study · Mayank Katnoria</title>
+  <meta name="description" content="StoreHUB: a collaborative component marketplace built with Next.js, Go, Fiber, MongoDB and automated CI/CD." />
+  <meta name="theme-color" content="#08080a" />
+  <meta property="og:title" content="StoreHUB — Case Study" />
+  <meta property="og:description" content="A collaborative home for reusable frontend components, built with Go and Fiber." />
+  <meta property="og:image" content="../assets/og.png" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/work.css" />
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body class="case-page" style="--accent:#ff5a36">
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress-top" aria-hidden="true"><i id="scrollProgress"></i></div>
+
+  <header class="site-header case-header">
+    <a class="logo" href="../index.html" aria-label="Mayank Katnoria — home">MK<span>.</span></a>
+    <nav class="case-header__nav" aria-label="Case navigation">
+      <a class="nav-back" href="../index.html#work"><span aria-hidden="true">←</span> All work</a>
+      <span class="case-header__meta">Case <b>03</b> / 03</span>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--sm" href="mailto:mayankkatnoria518@gmail.com">Let’s talk</a>
+    </div>
+  </header>
+
+  <main class="case-main">
+    <article>
+      <header class="case-hero">
+        <div class="case-hero__meta">
+          <span>Case study 03 — Developer tools</span>
+          <span>Dec 2024 — Present</span>
+        </div>
+
+        <h1 data-reveal>Store<span>HUB</span><em>.</em></h1>
+
+        <div class="case-hero__lead">
+          <p class="case-hero__tagline" data-reveal>Reusable UI,<br />ready to ship.</p>
+          <div data-reveal style="--delay:.08s">
+            <p class="case-hero__summary">A collaborative marketplace where developers publish, discover and integrate reusable frontend components — with a concurrent Go backend, flexible document data and automated releases.</p>
+            <div class="case-hero__links">
+              <a class="btn btn--solid" href="https://github.com/Mayank5432112345" target="_blank" rel="noopener">GitHub profile <span aria-hidden="true">↗</span></a>
+              <a class="btn" href="mailto:mayankkatnoria518@gmail.com?subject=StoreHUB%20walkthrough">Ask for a walkthrough</a>
+            </div>
+          </div>
+        </div>
+
+        <dl class="case-facts" data-reveal>
+          <div><dt>Role</dt><dd>Full-stack developer</dd></div>
+          <div><dt>Timeline</dt><dd>Dec 2024 — Present</dd></div>
+          <div><dt>Stack</dt><dd><div class="tags"><span>Next.js</span><span>Go</span><span>Fiber</span><span>MongoDB</span><span>TypeScript</span></div></dd></div>
+          <div><dt>Status</dt><dd>In development</dd></div>
+        </dl>
+      </header>
+
+      <div class="case-hero" style="padding-top:0" data-reveal>
+        <div class="case-cover--mock">
+          <div class="store-page" aria-hidden="true">
+            <div class="store-page__bar"><span>storehub / discover</span><span>⌘ K</span></div>
+            <div class="store-page__body">
+              <div class="store-page__head">
+                <h3>Reusable UI,<br />ready to ship.</h3>
+                <span>Component library</span>
+              </div>
+              <div class="store-page__grid">
+                <div class="store-page__tile"><span>UI</span><strong>Command Menu</strong><i></i></div>
+                <div class="store-page__tile"><span>FORM</span><strong>Auth Flow</strong><i></i></div>
+                <div class="store-page__tile"><span>DATA</span><strong>Data Table</strong><i></i></div>
+              </div>
+              <div class="store-page__code"><b>$</b> storehub publish ./command-menu<br /><b>✓</b> tests passed · <b>✓</b> component published · <b>✓</b> docs generated</div>
+            </div>
+          </div>
+        </div>
+        <div class="case-cover__caption"><span>Component discovery — product mock</span><span>StoreHUB / 2026</span></div>
+      </div>
+
+      <section class="case-section">
+        <div class="case-section__inner case-block">
+          <div class="case-label"><span>01</span> — The brief</div>
+          <div class="case-content" data-reveal>
+            <h2>The same component,<br /><em>rebuilt everywhere.</em></h2>
+            <p>Most frontend teams have a folder of half-maintained components and a chat thread full of “didn’t we build this already?”. StoreHUB is an attempt to make reuse the default: a place where components can be published with documentation, discovered in context and integrated without copy-paste archaeology.</p>
+            <p>The platform needed to be fast for readers, forgiving for contributors and automated enough that publishing a component did not become a second job.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="case-section__inner case-block">
+          <div class="case-label"><span>02</span> — The build</div>
+          <div class="case-content" data-reveal>
+            <h2>A marketplace with<br /><em>an engineer’s backend.</em></h2>
+            <div class="case-list">
+              <div class="case-list__item">
+                <span>01</span>
+                <h3>Next.js on the surface</h3>
+                <p>A typed, responsive frontend for browsing categories, previewing components and understanding dependencies before adding anything to a project.</p>
+              </div>
+              <div class="case-list__item">
+                <span>02</span>
+                <h3>Concurrent Go services</h3>
+                <p>Backend services built with Go and Fiber, designed for concurrent request processing and real-time operations without a tangle of async glue.</p>
+              </div>
+              <div class="case-list__item">
+                <span>03</span>
+                <h3>Data that fits the domain</h3>
+                <p>MongoDB schemas and REST APIs shaped around components, versions, authors and discovery — flexible where the domain is, strict where it matters.</p>
+              </div>
+              <div class="case-list__item">
+                <span>04</span>
+                <h3>Release on rails</h3>
+                <p>Automated tests, CI/CD and GitHub Actions pipelines turn a merge into a release without a manual checklist or a Friday-night deploy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="case-section__inner case-block">
+          <div class="case-label"><span>03</span> — The architecture</div>
+          <div class="case-content">
+            <h2>Three layers,<br /><em>one workflow.</em></h2>
+            <div class="case-metrics" data-reveal>
+              <div class="case-metric"><strong>Go<em>+</em></strong><span>Fiber services</span></div>
+              <div class="case-metric"><strong>REST</strong><span>Typed API contracts</span></div>
+              <div class="case-metric"><strong>Mongo</strong><span>Document data layer</span></div>
+              <div class="case-metric"><strong>CI/CD</strong><span>Automated releases</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="case-section__inner case-block">
+          <div class="case-label"><span>04</span> — The takeaway</div>
+          <div class="case-content" data-reveal>
+            <h2>Reuse is a product<br /><em>problem.</em></h2>
+            <p>StoreHUB pushed me deeper into backend design: concurrent request handling, schema choices, API contracts and deployment automation. It also reinforced that developer tools succeed on trust — fast responses, clear versions and no surprises when something is published.</p>
+            <p>The project is still evolving, with discovery and publishing workflows continuing to improve.</p>
+          </div>
+        </div>
+      </section>
+
+      <a class="case-next" href="campus-sync.html">
+        <div class="case-next__inner">
+          <div>
+            <span class="case-label">Next case study — 01</span>
+            <h2>CampusSync</h2>
+          </div>
+          <span class="case-next__arrow" aria-hidden="true">→</span>
+        </div>
+      </a>
+    </article>
+
+    <footer class="case-footer">
+      <div class="case-footer__inner">
+        <span>© <span id="year">2026</span> Mayank Katnoria</span>
+        <a href="../index.html#work">All work</a>
+        <a href="https://github.com/Mayank5432112345" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="mailto:mayankkatnoria518@gmail.com">Email ↗</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="../js/work.js" defer></script>
+</body>
+</html>

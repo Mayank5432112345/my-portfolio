@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayank Katnoria — Full-Stack Developer &amp; Competitive Programmer</title>
+  <meta name="description" content="Mayank Katnoria is a full-stack developer and competitive programmer at IIIT Lucknow, building scalable systems, backend APIs and performance-optimized web applications." />
+  <meta name="theme-color" content="#08080a" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mayank Katnoria — Full-Stack Developer" />
+  <meta property="og:description" content="Scalable systems, fast APIs, expressive interfaces. B.Tech CSE at IIIT Lucknow." />
+  <meta property="og:image" content="assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mayank Katnoria",
+      "jobTitle": "Full-Stack Developer",
+      "email": "mailto:mayankkatnoria518@gmail.com",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Information Technology, Lucknow"
+      },
+      "knowsAbout": ["Full-stack development", "Backend engineering", "Competitive programming", "PostgreSQL", "React", "Go"],
+      "sameAs": [
+        "https://github.com/Mayank5432112345",
+        "https://www.linkedin.com/in/mayank-katnoria-68859229a/",
+        "https://www.codechef.com/users/chunk_gaze_35"
+      ]
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/scene.css" />
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+  <div class="progress-top" aria-hidden="true"><i id="scrollProgress"></i></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="logo" href="#home" data-scene-link="0" aria-label="Mayank Katnoria — home">MK<span>.</span></a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about" data-scene-link="1">About</a>
+      <a href="#stack" data-scene-link="2">Stack</a>
+      <a href="#work" data-scene-link="3">Work</a>
+      <a href="#achievements" data-scene-link="4">Achievements</a>
+    </nav>
+    <div class="header-actions">
+      <span class="status"><i></i>Open to internships</span>
+      <a class="btn btn--sm" href="mailto:mayankkatnoria518@gmail.com">Let’s talk</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <aside class="scene-rail" aria-label="Scenes">
+    <a href="#home" data-scene-link="0" aria-label="Scene 01 — Identity"><span>01</span><i></i><em>Identity</em></a>
+    <a href="#about" data-scene-link="1" aria-label="Scene 02 — About"><span>02</span><i></i><em>About</em></a>
+    <a href="#stack" data-scene-link="2" aria-label="Scene 03 — Stack"><span>03</span><i></i><em>Stack</em></a>
+    <a href="#work" data-scene-link="3" aria-label="Scene 04 — Work"><span>04</span><i></i><em>Work</em></a>
+    <a href="#achievements" data-scene-link="4" aria-label="Scene 05 — Achievements"><span>05</span><i></i><em>Proof</em></a>
+    <a href="#contact" data-scene-link="5" aria-label="Scene 06 — Contact"><span>06</span><i></i><em>Contact</em></a>
+  </aside>
+
+  <div class="scene-counter" aria-hidden="true">
+    <span class="scene-counter__num" id="sceneNum">01</span>
+    <span class="scene-counter__name" id="sceneName">Identity</span>
+    <span class="scene-counter__total">/ 06</span>
+  </div>
+  <a class="scroll-hint" href="#about" data-scene-link="1" id="scrollHint">
+    <span id="scrollHintText">Scroll to advance</span>
+    <span class="scroll-hint__line" aria-hidden="true"></span>
+  </a>
+  <div class="scene-progress" aria-hidden="true"><i id="sceneProgress"></i></div>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__head">
+      <span class="menu__eyebrow">Navigation — 2026</span>
+      <span class="menu__meta">IIIT Lucknow<br />CSE ’28</span>
+    </div>
+    <nav class="menu__nav" aria-label="Mobile">
+      <a href="#home" data-scene-link="0"><span>01</span>Identity</a>
+      <a href="#about" data-scene-link="1"><span>02</span>About</a>
+      <a href="#stack" data-scene-link="2"><span>03</span>Stack</a>
+      <a href="#work" data-scene-link="3"><span>04</span>Work</a>
+      <a href="#achievements" data-scene-link="4"><span>05</span>Proof</a>
+      <a href="#contact" data-scene-link="5"><span>06</span>Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:mayankkatnoria518@gmail.com">mayankkatnoria518@gmail.com</a>
+      <div class="menu__socials">
+        <a href="https://github.com/Mayank5432112345" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/mayank-katnoria-68859229a/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://www.codechef.com/users/chunk_gaze_35" target="_blank" rel="noopener">CodeChef ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="journey" id="journey">
+      <div class="stage" id="stage">
+
+        <!-- 00 — HERO -->
+        <section class="scene scene--hero is-active" id="home" data-scene="0" data-name="Identity" aria-labelledby="heroTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">01</span><span class="scene__grid"></span></div>
+          <div class="scene__inner hero">
+            <div class="hero__top">
+              <span class="eyebrow">Full-stack developer <i>·</i> Competitive programmer</span>
+              <span class="hero__loc">Lucknow, India <span>28.61° N</span></span>
+            </div>
+
+            <h1 class="hero__title" id="heroTitle">
+              <span class="hero__line">MAYANK</span>
+              <span class="hero__line hero__line--outline">KATNORIA<span class="hero__dot">.</span></span>
+            </h1>
+
+            <div class="hero__body">
+              <div class="hero__copy">
+                <p class="hero__intro">I build scalable systems and interfaces that <em>feel effortless</em> — from multi-tenant APIs to the last pixel.</p>
+                <div class="hero__meta">
+                  <span>IIIT Lucknow</span>
+                  <span>B.Tech CSE ’28</span>
+                  <span>Open to internships</span>
+                </div>
+                <div class="hero__actions">
+                  <a class="btn btn--solid magnetic" href="#work" data-scene-link="3"><span>Explore my work</span><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg></a>
+                  <a class="link-arrow" href="https://github.com/Mayank5432112345" target="_blank" rel="noopener"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+
+              <div class="hero__visual">
+                <div class="model" id="model">
+                  <span class="model__ring model__ring--a" aria-hidden="true"></span>
+                  <span class="model__ring model__ring--b" aria-hidden="true"></span>
+                  <canvas id="modelCanvas" tabindex="0" role="img" aria-label="Interactive 3D wireframe sculpture. Drag to rotate, click to pulse."></canvas>
+                  <span class="model__core" aria-hidden="true">MK</span>
+                  <span class="model__tag model__tag--a"><i></i>FULL-STACK / 2026</span>
+                  <span class="model__tag model__tag--b">DRAG · CLICK</span>
+                  <span class="model__axis model__axis--x" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 01 — ABOUT -->
+        <section class="scene scene--about" id="about" data-scene="1" data-name="About" aria-labelledby="aboutTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">02</span><span class="scene__grid"></span></div>
+          <div class="scene__inner">
+            <div class="scene-head">
+              <span class="eyebrow">01 — About</span>
+              <h2 class="display" id="aboutTitle">Engineering is<br /><em>a craft.</em></h2>
+            </div>
+
+            <div class="about__grid">
+              <div class="about__copy">
+                <p class="lead">I’m Mayank, a computer science undergrad at IIIT Lucknow. I like the part of software where <em>architecture meets experience</em> — designing APIs that stay fast under load, then shaping interfaces that make complex systems feel simple.</p>
+                <p>Most of my time goes into full-stack products, backend performance and competitive programming. I care about clean contracts, measured latency and the details users never have to think about.</p>
+
+                <div class="principles">
+                  <div class="principle"><span>01</span><div><strong>Build for load</strong><p>Multi-tenancy, RBAC and row-level security from day one.</p></div></div>
+                  <div class="principle"><span>02</span><div><strong>Latency is a feature</strong><p>Indexes, caching and query paths designed for sub-100ms responses.</p></div></div>
+                  <div class="principle"><span>03</span><div><strong>Ship, measure, refine</strong><p>Small releases, real feedback, clean CI/CD.</p></div></div>
+                </div>
+              </div>
+
+              <div class="about__side">
+                <div class="id-card" data-tilt>
+                  <span class="id-card__glow" aria-hidden="true"></span>
+                  <div class="id-card__head"><span>IIIT Lucknow</span><span>Student / 2024—28</span></div>
+                  <div class="id-card__mono" aria-hidden="true">MK</div>
+                  <div class="id-card__name">Mayank<br />Katnoria</div>
+                  <p class="id-card__role">B.Tech · Computer Science &amp; Engineering</p>
+                  <div class="id-card__foot"><span>Lucknow, India</span><span>CSE ’28</span></div>
+                  <div class="id-card__barcode" aria-hidden="true"></div>
+                  <span class="id-card__stamp" aria-hidden="true">CS<br />’28</span>
+                </div>
+                <div class="education">
+                  <span class="education__label">Education</span>
+                  <strong>Indian Institute of Information Technology, Lucknow</strong>
+                  <p>B.Tech — Computer Science &amp; Engineering · 2024–2028</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scene-meta">
+              <span>Currently building CampusSync</span>
+              <span>Exploring vector search &amp; distributed systems</span>
+              <span>Open to SDE internships</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 02 — STACK -->
+        <section class="scene scene--stack" id="stack" data-scene="2" data-name="Stack" aria-labelledby="stackTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">03</span><span class="scene__grid"></span></div>
+          <div class="scene__inner">
+            <div class="scene-head scene-head--split">
+              <div>
+                <span class="eyebrow">02 — Stack</span>
+                <h2 class="display" id="stackTitle">The tools<br /><em>I trust.</em></h2>
+              </div>
+              <p class="scene-head__intro">A working stack, not a buzzword list. Hover or tap a key to see where I use it.</p>
+            </div>
+
+            <div class="stack__grid">
+              <div class="stack__panel">
+                <div class="stack-readout" id="stackReadout" aria-live="polite">
+                  <span class="stack-readout__icon is-text" id="stackIcon" aria-hidden="true">✦</span>
+                  <div>
+                    <span class="stack-readout__label" id="stackName">Pick a key</span>
+                    <p class="stack-readout__desc" id="stackDesc">30 tools. Every one earns its place. Hover a key to inspect the stack.</p>
+                  </div>
+                </div>
+
+                <div class="stack-filters" role="group" aria-label="Filter stack by category">
+                  <button class="filter is-active" type="button" data-filter="all">All</button>
+                  <button class="filter" type="button" data-filter="languages">Languages</button>
+                  <button class="filter" type="button" data-filter="frontend">Frontend</button>
+                  <button class="filter" type="button" data-filter="backend">Backend</button>
+                  <button class="filter" type="button" data-filter="data">Data</button>
+                  <button class="filter" type="button" data-filter="tools">Tools</button>
+                </div>
+
+                <div class="concepts">
+                  <span>Also in the toolkit</span>
+                  <ul><li>DSA</li><li>System design</li><li>DBMS</li><li>Operating systems</li><li>Computer networks</li><li>OOP</li></ul>
+                </div>
+              </div>
+
+              <div class="keyboard-wrap">
+                <div class="keyboard" id="keyboard">
+                  <button class="key" type="button" data-name="C++" data-cat="languages" data-color="#00599c" data-desc="Primary language for DSA, competitive programming and performance-sensitive problem solving." style="--icon:url('../assets/icons/cplusplus.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">C++</span></button>
+                  <button class="key" type="button" data-name="TypeScript" data-cat="languages" data-color="#3178c6" data-desc="Typed JavaScript for full-stack products — from Next.js apps to shared API contracts." style="--icon:url('../assets/icons/typescript.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">TypeScript</span></button>
+                  <button class="key" type="button" data-name="JavaScript" data-cat="languages" data-color="#f7df1e" data-desc="The language of the web. React interfaces, Node services and everything in between." style="--icon:url('../assets/icons/javascript.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">JavaScript</span></button>
+                  <button class="key" type="button" data-name="Python" data-cat="languages" data-color="#3776ab" data-desc="Scripting, data experiments and the Flask service behind Nexus." style="--icon:url('../assets/icons/python.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Python</span></button>
+                  <button class="key" type="button" data-name="Go" data-cat="languages" data-color="#00add8" data-desc="Concurrent backend services with Fiber for StoreHUB." style="--icon:url('../assets/icons/go.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Go</span></button>
+                  <button class="key key--text" type="button" data-name="SQL" data-cat="languages" data-color="#f2efe6" data-glyph="SQL" data-desc="Query design, indexing and data modelling across PostgreSQL and MySQL."><span class="key__label">SQL</span></button>
+
+                  <button class="key" type="button" data-name="React" data-cat="frontend" data-color="#61dafb" data-desc="Component-driven interfaces with a focus on state, motion and usable detail." style="--icon:url('../assets/icons/react.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">React</span></button>
+                  <button class="key" type="button" data-name="Next.js" data-cat="frontend" data-color="#f2efe6" data-desc="App Router, server components and production builds for CampusSync and StoreHUB." style="--icon:url('../assets/icons/nextdotjs.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Next.js</span></button>
+                  <button class="key" type="button" data-name="Tailwind CSS" data-cat="frontend" data-color="#38bdf8" data-desc="Design systems at the speed of class names — consistent spacing, type and colour." style="--icon:url('../assets/icons/tailwindcss.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Tailwind</span></button>
+                  <button class="key" type="button" data-name="HTML5" data-cat="frontend" data-color="#e34f26" data-desc="Semantic structure, accessible markup and a solid document outline." style="--icon:url('../assets/icons/html5.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">HTML5</span></button>
+                  <button class="key" type="button" data-name="CSS3" data-cat="frontend" data-color="#1572b6" data-desc="Responsive layouts, 3D transforms and the motion layer of this site." style="--icon:url('../assets/icons/css.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">CSS3</span></button>
+                  <button class="key key--text" type="button" data-name="Motion" data-cat="frontend" data-color="#ff5a36" data-glyph="FX" data-desc="Scroll choreography, hover states and 3D transforms that support the experience."><span class="key__label">Motion</span></button>
+
+                  <button class="key" type="button" data-name="Node.js" data-cat="backend" data-color="#5fa04e" data-desc="Server-side JavaScript for APIs, tooling and backend services." style="--icon:url('../assets/icons/nodedotjs.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Node.js</span></button>
+                  <button class="key" type="button" data-name="Express" data-cat="backend" data-color="#f2efe6" data-desc="Minimal REST APIs with middleware, validation and clean route structure." style="--icon:url('../assets/icons/express.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Express</span></button>
+                  <button class="key" type="button" data-name="Flask" data-cat="backend" data-color="#f2efe6" data-desc="Python APIs and the AI service layer behind the Nexus recommendation engine." style="--icon:url('../assets/icons/flask.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Flask</span></button>
+                  <button class="key" type="button" data-name="Fiber" data-cat="backend" data-color="#00add8" data-desc="High-throughput Go HTTP services for concurrent request processing." style="--icon:url('../assets/icons/go.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Fiber</span></button>
+                  <button class="key key--text" type="button" data-name="REST APIs" data-cat="backend" data-color="#ff5a36" data-glyph="API" data-desc="Resource design, versioning, validation and predictable error contracts across 90+ endpoints."><span class="key__label">REST</span></button>
+                  <button class="key key--text" type="button" data-name="RBAC" data-cat="backend" data-color="#33e6b0" data-glyph="RBAC" data-desc="Role-based access control and tenant isolation enforced at the API and database layers."><span class="key__label">RBAC</span></button>
+
+                  <button class="key" type="button" data-name="PostgreSQL" data-cat="data" data-color="#4169e1" data-desc="Relational modelling, indexes, RBAC and row-level security for multi-tenant data." style="--icon:url('../assets/icons/postgresql.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">PostgreSQL</span></button>
+                  <button class="key" type="button" data-name="Supabase" data-cat="data" data-color="#3fcf8e" data-desc="Auth, Postgres and tenant-isolated workflows for CampusSync." style="--icon:url('../assets/icons/supabase.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Supabase</span></button>
+                  <button class="key" type="button" data-name="MongoDB" data-cat="data" data-color="#47a248" data-desc="Flexible document data for component discovery in StoreHUB." style="--icon:url('../assets/icons/mongodb.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">MongoDB</span></button>
+                  <button class="key" type="button" data-name="Redis" data-cat="data" data-color="#dc382d" data-desc="Caching and low-latency request paths in the Nexus API." style="--icon:url('../assets/icons/redis.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Redis</span></button>
+                  <button class="key" type="button" data-name="MySQL" data-cat="data" data-color="#4479a1" data-desc="Relational fundamentals, joins and schema design." style="--icon:url('../assets/icons/mysql.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">MySQL</span></button>
+                  <button class="key key--text" type="button" data-name="pgvector" data-cat="data" data-color="#4169e1" data-glyph="VEC" data-desc="Vector embeddings and semantic similarity search inside PostgreSQL."><span class="key__label">pgvector</span></button>
+
+                  <button class="key" type="button" data-name="Git" data-cat="tools" data-color="#f05032" data-desc="Version control, branching and reviewable, incremental changes." style="--icon:url('../assets/icons/git.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Git</span></button>
+                  <button class="key" type="button" data-name="GitHub Actions" data-cat="tools" data-color="#f2efe6" data-desc="CI/CD pipelines that automate tests and deployments." style="--icon:url('../assets/icons/githubactions.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Actions</span></button>
+                  <button class="key" type="button" data-name="Docker" data-cat="tools" data-color="#2496ed" data-desc="Containerized services and reproducible environments." style="--icon:url('../assets/icons/docker.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Docker</span></button>
+                  <button class="key" type="button" data-name="Linux" data-cat="tools" data-color="#fcc624" data-desc="Shell workflows, servers and day-to-day development." style="--icon:url('../assets/icons/linux.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Linux</span></button>
+                  <button class="key" type="button" data-name="GitHub" data-cat="tools" data-color="#f2efe6" data-desc="Open-source work, code review and collaboration across projects." style="--icon:url('../assets/icons/github.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">GitHub</span></button>
+                  <button class="key" type="button" data-name="Postman" data-cat="tools" data-color="#ff6c37" data-desc="API testing, contract checks and request collections for backend work." style="--icon:url('../assets/icons/postman.svg')"><span class="key__icon" aria-hidden="true"></span><span class="key__label">Postman</span></button>
+                </div>
+                <span class="keyboard__hint" aria-hidden="true">Hover to inspect — click to lock</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 03 — WORK -->
+        <section class="scene scene--work" id="work" data-scene="3" data-name="Work" aria-labelledby="workTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">04</span><span class="scene__grid"></span></div>
+          <div class="scene__inner">
+            <div class="scene-head scene-head--split">
+              <div>
+                <span class="eyebrow">03 — Selected work</span>
+                <h2 class="display" id="workTitle">Things I’ve<br /><em>shipped.</em></h2>
+              </div>
+              <p class="scene-head__intro">Real products, real constraints. Drag the projects or use the arrows — open a card for the full story.</p>
+            </div>
+
+            <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Selected projects">
+              <article class="work-card" data-index="0" aria-roledescription="slide" aria-label="1 of 3 — CampusSync">
+                <a class="work-card__link" href="work/campus-sync.html">
+                  <div class="work-card__shot">
+                    <img src="assets/projects/campus-1200.jpg" srcset="assets/projects/campus-800.jpg 800w, assets/projects/campus-1200.jpg 1200w" sizes="(max-width: 820px) 84vw, 560px" alt="CampusSync landing page with the headline Transform Certificates Into Digital Trust" width="1200" height="833" decoding="async" fetchpriority="low" />
+                    <span class="work-card__badge">90+ APIs</span>
+                    <span class="work-card__year">2025 — Now</span>
+                  </div>
+                  <div class="work-card__body">
+                    <div class="work-card__kicker"><span>01 / SaaS</span><span>Live + open source</span></div>
+                    <h3>CampusSync</h3>
+                    <p>A multi-tenant credential platform with 90+ REST APIs, 50+ RLS policies and sub-100ms response paths.</p>
+                    <div class="tags"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Supabase</span></div>
+                    <span class="work-card__cta">Open case study <span aria-hidden="true">↗</span></span>
+                  </div>
+                </a>
+              </article>
+
+              <article class="work-card" data-index="1" aria-roledescription="slide" aria-label="2 of 3 — Nexus">
+                <a class="work-card__link" href="work/nexus.html">
+                  <div class="work-card__shot">
+                    <img src="assets/projects/nexus-1200.jpg" srcset="assets/projects/nexus-800.jpg 800w, assets/projects/nexus-1200.jpg 1200w" sizes="(max-width: 820px) 84vw, 560px" alt="Fuze landing page with the headline Unleash Your Dev Potential" width="1200" height="833" decoding="async" fetchpriority="low" />
+                    <span class="work-card__badge">98% faster</span>
+                    <span class="work-card__year">2026 — Now</span>
+                  </div>
+                  <div class="work-card__body">
+                    <div class="work-card__kicker"><span>02 / AI search</span><span>Live + open source</span></div>
+                    <h3>Nexus <span>· Fuze</span></h3>
+                    <p>An AI content discovery engine using vector embeddings, semantic search and ranking pipelines.</p>
+                    <div class="tags"><span>Flask</span><span>React</span><span>Redis</span><span>pgvector</span></div>
+                    <span class="work-card__cta">Open case study <span aria-hidden="true">↗</span></span>
+                  </div>
+                </a>
+              </article>
+
+              <article class="work-card" data-index="2" aria-roledescription="slide" aria-label="3 of 3 — StoreHUB">
+                <a class="work-card__link" href="work/storehub.html">
+                  <div class="work-card__shot work-card__shot--mock">
+                    <div class="store-mock" aria-hidden="true">
+                      <div class="store-mock__bar"><span>storehub / discover</span><span>⌘ K</span></div>
+                      <div class="store-mock__head"><strong>Reusable UI,<br />ready to ship.</strong><span>Component library</span></div>
+                      <div class="store-mock__grid">
+                        <div class="store-tile"><span>UI</span><strong>Command Menu</strong><i></i></div>
+                        <div class="store-tile"><span>FORM</span><strong>Auth Flow</strong><i></i></div>
+                        <div class="store-tile"><span>DATA</span><strong>Data Table</strong><i></i></div>
+                      </div>
+                    </div>
+                    <span class="work-card__badge">Go + Fiber</span>
+                    <span class="work-card__year">2024 — Now</span>
+                  </div>
+                  <div class="work-card__body">
+                    <div class="work-card__kicker"><span>03 / Dev tools</span><span>In development</span></div>
+                    <h3>StoreHUB</h3>
+                    <p>A collaborative component marketplace with concurrent Go services and automated CI/CD.</p>
+                    <div class="tags"><span>Next.js</span><span>Go</span><span>MongoDB</span><span>GitHub Actions</span></div>
+                    <span class="work-card__cta">Open case study <span aria-hidden="true">↗</span></span>
+                  </div>
+                </a>
+              </article>
+            </div>
+
+            <div class="carousel-controls">
+              <div class="carousel-controls__btns">
+                <button class="circle-btn" id="prevProject" type="button" aria-label="Previous project">←</button>
+                <button class="circle-btn" id="nextProject" type="button" aria-label="Next project">→</button>
+              </div>
+              <span class="carousel-controls__count"><b id="projectIndex">01</b> / 03</span>
+              <span class="carousel-controls__hint">Drag to explore</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 04 — ACHIEVEMENTS -->
+        <section class="scene scene--achievements" id="achievements" data-scene="4" data-name="Proof" aria-labelledby="achievementsTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">05</span><span class="scene__grid"></span></div>
+          <div class="scene__inner">
+            <div class="scene-head scene-head--split">
+              <div>
+                <span class="eyebrow">04 — Achievements</span>
+                <h2 class="display" id="achievementsTitle">Proof of<br /><em>work.</em></h2>
+              </div>
+              <p class="scene-head__intro">Ratings are not the whole story, but they are a useful signal. The rest is consistency, curiosity and showing up.</p>
+            </div>
+
+            <div class="ach__grid">
+              <div class="ach__stats">
+                <article class="ach-stat">
+                  <span class="ach-stat__brand"><span class="icon-mask" style="--icon:url('../assets/icons/codechef.svg')" aria-hidden="true"></span>CodeChef</span>
+                  <strong><span data-counter="1815">1815</span></strong>
+                  <p>Max rating · <b>4★</b></p>
+                  <span class="ach-stat__sub">Global Rank 80 · Starters 220</span>
+                </article>
+                <article class="ach-stat">
+                  <span class="ach-stat__brand"><span class="icon-mask" style="--icon:url('../assets/icons/codeforces.svg')" aria-hidden="true"></span>Codeforces</span>
+                  <strong><span data-counter="1539">1539</span></strong>
+                  <p>Max rating · <b>Specialist</b></p>
+                  <span class="ach-stat__sub">Global Rank 1060 · Round 1075</span>
+                </article>
+                <article class="ach-stat">
+                  <span class="ach-stat__brand"><span class="icon-mask" style="--icon:url('../assets/icons/leetcode.svg')" aria-hidden="true"></span>Problem solving</span>
+                  <strong><span data-counter="600" data-suffix="+">600+</span></strong>
+                  <p>DSA &amp; CP problems</p>
+                  <span class="ach-stat__sub">Across Codeforces, CodeChef &amp; LeetCode</span>
+                </article>
+                <article class="ach-stat">
+                  <span class="ach-stat__brand"><span class="ach-stat__spark" aria-hidden="true">✦</span>Hackofiesta</span>
+                  <strong>3<span class="ach-stat__suffix">rd</span></strong>
+                  <p>Hackathon winner</p>
+                  <span class="ach-stat__sub">3rd position · IIIT Lucknow</span>
+                </article>
+              </div>
+
+              <div class="clubs">
+                <div class="clubs__head"><span>Clubs &amp; community</span><span>IIIT Lucknow</span></div>
+                <div class="club">
+                  <div class="club__top"><strong>Competitive Programming Wing</strong><span>Active Contributor</span></div>
+                  <p>Part of the campus CP community — contest participation, problem discussions and peer mentoring in DSA.</p>
+                  <div class="club__tags"><span>DSA</span><span>Mentoring</span><span>Contests</span></div>
+                </div>
+                <div class="club">
+                  <div class="club__top"><strong>Axios — Web Wing</strong><span>Technical Member</span></div>
+                  <p>Contribute to web initiatives and frontend builds for the technical club, from design to deployment.</p>
+                  <div class="club__tags"><span>React</span><span>Frontend</span><span>Teamwork</span></div>
+                </div>
+                <div class="club">
+                  <div class="club__top"><strong>Utkrisht — Art Club</strong><span>Creative Participant</span></div>
+                  <p>Visual design and creative input for campus events, posters and club activities.</p>
+                  <div class="club__tags"><span>Design</span><span>Storytelling</span></div>
+                </div>
+                <div class="clubs__links">
+                  <a href="https://www.codechef.com/users/chunk_gaze_35" target="_blank" rel="noopener">CodeChef profile ↗</a>
+                  <a href="https://github.com/Mayank5432112345" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 05 — CONTACT -->
+        <section class="scene scene--contact" id="contact" data-scene="5" data-name="Contact" aria-labelledby="contactTitle">
+          <div class="scene__bg" aria-hidden="true"><span class="scene__num">06</span><span class="scene__grid"></span></div>
+          <div class="scene__inner contact">
+            <div class="contact__top">
+              <span class="eyebrow">05 — Contact</span>
+              <span class="status status--bright"><i></i>Open to internships · 2026</span>
+            </div>
+
+            <h2 class="contact__title" id="contactTitle">Let’s build<br /><em>something real.</em></h2>
+
+            <div class="contact__grid">
+              <div class="contact__left">
+                <p>I’m looking for SDE internships and teams working on products where backend depth and frontend craft both matter. If that sounds like you, my inbox is open.</p>
+                <div class="contact__email-row">
+                  <a class="contact__email" href="mailto:mayankkatnoria518@gmail.com">mayankkatnoria518@gmail.com <span aria-hidden="true">↗</span></a>
+                  <button class="copy-btn" id="copyEmail" type="button" data-email="mayankkatnoria518@gmail.com"><span id="copyLabel">Copy</span></button>
+                </div>
+              </div>
+
+              <div class="contact__card">
+                <div class="contact__card-top"><span>Available for</span><span>2026</span></div>
+                <ul>
+                  <li><span>01</span>SDE internships</li>
+                  <li><span>02</span>Full-stack projects</li>
+                  <li><span>03</span>Open-source collaboration</li>
+                </ul>
+                <div class="contact__card-foot"><span>Based in Lucknow, IN</span><span id="clock">--:--</span></div>
+              </div>
+            </div>
+
+            <div class="contact__socials">
+              <a href="https://github.com/Mayank5432112345" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/mayank-katnoria-68859229a/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="https://www.codechef.com/users/chunk_gaze_35" target="_blank" rel="noopener">CodeChef ↗</a>
+              <a href="https://campussynchronization.vercel.app/" target="_blank" rel="noopener">CampusSync ↗</a>
+            </div>
+
+            <footer class="site-footer">
+              <span>© 2026 Mayank Katnoria</span>
+              <span>Designed &amp; built from scratch — no templates</span>
+              <a href="#home" data-scene-link="0">Back to top ↑</a>
+            </footer>
+          </div>
+        </section>
+      </div>
+
+      <div class="anchors" aria-hidden="true">
+        <section class="anchor"></section>
+        <section class="anchor"></section>
+        <section class="anchor"></section>
+        <section class="anchor"></section>
+        <section class="anchor"></section>
+        <section class="anchor"></section>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/model.js" defer></script>
+  <script src="js/scene.js" defer></script>
+</body>
+</html>
