@@ -1,0 +1,6 @@
+{
+  "root": "default-workspace",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}
